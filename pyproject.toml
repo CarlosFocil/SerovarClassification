@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "2-capstone-project"
+version = "0.1.0"
+description = ""
+authors = ["CarlosFocil <carlosfocil09@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.4.0"
+pandas = "^2.1.4"
+numpy = "^1.26.3"
+seaborn = "^0.13.1"
+jupyterlab = "^4.0.10"
+notebook = "^7.0.6"
+Flask = "^3.0.1"
+gunicorn = "^21.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
