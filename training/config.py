@@ -8,7 +8,7 @@ MODEL_SETTINGS = {
     'random_state': 11,
     'cv_folds':5,
     'model_version':'v1',
-    'save_model':False
+    'save_model':True
 }
 
 PARAM_GRID = {

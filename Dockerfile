@@ -12,7 +12,7 @@ COPY ["inference/predict.py", "models/*", "./"]
 
 EXPOSE 9696
 
-ENV MODEL_FILE="LabelEncoder_Pipeline_RandomForest_SerovarClassifier_v1.bin"
+ENV MODEL_FILE="LabelEncoder_Pipeline_random_forest_SerovarClassifier_v1.bin"
 ENV PORT=9696
 
 ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:9696", "predict:app"]
