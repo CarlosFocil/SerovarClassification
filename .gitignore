@@ -1,0 +1,12 @@
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Exception for main notebook
+!Serovar_multiclass_classification.ipynb
+
+# Python
+__pycache__
+
+# Test plots
+*.jpg
