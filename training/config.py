@@ -1,5 +1,5 @@
 PATH_SETTINGS = {
-    'training_data_path' : '../data/prepared_data/complete_dataset.csv',
+    'training_data_path' : '../data/prepared_data/six_classes_nutrient_profile_data.csv',
     'output_model_path' : '../models',
 }
 
