@@ -122,6 +122,8 @@ This section is used for hyperparameter tuning and defines a grid of parameters 
 
 ## About the data and features.
 
+The data used in this project is located at 'data/prepared_data/six_classes_nutrient_profile_data.csv' which is a preprocessed dataset from the original article. The raw data is also included at 'data/raw_data/'.
+
 The metabolic fluxes of different nutrients are used as features for training the models. There are 6 types of features in the data which are encoded as prefixes and suffixes on the feature names:
 
 Prefix: Type of source.
