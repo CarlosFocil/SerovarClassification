@@ -37,8 +37,12 @@ def main():
 
     if model_type == 'random_forest':
         classifier = RandomForestClassifier(random_state=model_settings["random_state"], n_jobs=-1)
-        param_grid = hyperparam_grid[model_type]
+    elif model_type == 'decision_tree':
+        classifier = DecisionTreeClassifier(random_state=model_settings["random_state"])
     
+    # Get params for the chosen model type
+    param_grid = hyperparam_grid[model_type]
+
     # Hyperparameter tuning and cross validation
     logging.info(f"Performing hyperparameter tuning and cross-validation with the following settings...")
     logging.info(f"Model type: {model_type}")
