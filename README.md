@@ -19,7 +19,7 @@ The system is designed to be highly configurable, adaptable to various model arc
 1. [Prerequisites](#Prerequisistes)
 2. [Installation](#Installation)
 3. [Model serving](#Model-serving)
-4. [Training pipeline](#Training-pipeline)
+4. [Model training](#training-models)
 5. [About the data and features](#about-the-data-and-features)
 
 ### Prerequisistes
@@ -33,7 +33,9 @@ The project was built using the following dependencies and versions:
 1. Clone the repository and change directory:
 ```
 git clone https://github.com/CarlosFocil/SerovarClassification.git
+```
 
+```
 cd SerovarClassification
 ```
 
