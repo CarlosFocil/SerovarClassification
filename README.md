@@ -60,7 +60,7 @@ docker run --rm -p 9696:9696 serovar_prediction_service
 ```
 When succesfully running you should see the following message:
 ```
-Model LabelEncoder_Pipeline_RandomForest_SerovarClassifier_v1.bin loaded successfully. Ready to recieve requests and make predictions.
+Model LabelEncoder_Pipeline_random_forest_SerovarClassifier_v1.bin loaded successfully. Ready to recieve requests and make predictions.
 ```
 3. Test the service
 ```
